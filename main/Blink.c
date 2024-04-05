@@ -22,9 +22,9 @@ void app_main(void)
     while (1)
     {
         gpio_set_level (led,1);
-        vTaskDelay(100);
+        vTaskDelay(10);
         gpio_set_level (led,0);
-        vTaskDelay(100);
+        vTaskDelay(10);
         
     }
     
